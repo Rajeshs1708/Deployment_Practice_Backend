@@ -13,7 +13,7 @@ db()
 //Middleware
 app.use('/api', employeesRoutes)
 app.use('/', (req, res) => {
-  res.send('Welcome to My Application')
+  res.send('<h2>Welcome to Deployment Practice Application</h2>')
 })
 
 
